@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form method="get" target="_blank" action="/entryform">
+        <fieldset>
+            <legend>entry page</legend>
+            <label for="name"> enter ur name </label>
+            <input type="text" id="name" name="name" value="lulu" readonly disabled>
+            <br>
+            <label for="address"> enter ur address</label>
+            <textarea  id="address" name="user address" rows="3" cols="4" autofocus></textarea>
+            <br>
+            <label for="password">enter your password</label>
+            <input type="password" id="password" name="password">    
+            <br>
+            <label for="dob"></label>
+            <input type="date" id="dob" name="userdob">
+            <br>
+            select the gender:
+            <br>
+            <label for="male">male</label>
+            <input type="radio",required id="male" name="gender" value="male"> 
+            <br>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            favourite movie:
+            <br>
+            <label for="thor">thor</label>
+            <input type="checkbox" id="thor" name="aven">
+            <br>
+            <label for="spiderman"> spiderman </label>
+            <input type="checkbox" id="spiderman" name="spiderman">
+            <br>
+            <label for="ironman"> ironman </label>
+            <input type="checkbox" id="ironman" name="ironman">
+            <br>
+            <input type="number" min="0">
+            <input type="submit">
+            
+            <input type="text" id="hulu" name="hulu">
+            </form>
+        </fieldset>
+       
+    
+</body>
+</html>
